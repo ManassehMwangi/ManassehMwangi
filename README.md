@@ -1,8 +1,8 @@
-[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://rishavchanda.io)
+[![MasterHead](https://raw.githubusercontent.com/samyk/samyk/main/.../c.svg)]
 
 <h1 align="center">Hi 👋, I'm Manasseh!</h1>
 <h3 align="center">I'm a Junior Cloud Advocate ☁ specializing in DevOps using cloud platforms such as Amazon Web Services(AWS) and Microsoft Azure.</h3>
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/samyk/samyk/main/.../c.svg">
+<img align="right" alt="Coding" width="400" src="https://media1.giphy.com/media/xULW8l2gXuRPmsQe8U/giphy.gif">
 
 - 🌱 I’m currently learning and looking for **and looking for cool projects to get involved in real live DevOps.**
 
