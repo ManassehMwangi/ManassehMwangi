@@ -1,4 +1,3 @@
-<a href="https://samy.pl"><img src="https://raw.githubusercontent.com/samyk/samyk/main/.../c.svg" width="100%" height="40%"></a>
 
 <h1 align="center">Hi 👋, I'm Manasseh!</h1>
 <h3 align="center">I'm a Junior Cloud Advocate ☁ specializing in DevOps using cloud platforms such as Amazon Web Services(AWS) and Microsoft Azure.</h3>
