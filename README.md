@@ -3,7 +3,7 @@
 <h3 align="center">I'm a Junior Cloud Advocate ☁ specializing in DevOps using cloud platforms such as Amazon Web Services(AWS) and Microsoft Azure.</h3>
 <img align="right" alt="Coding" width="400" src="https://media1.giphy.com/media/xULW8l2gXuRPmsQe8U/giphy.gif">
 
-- 🌱 I’m currently learning and looking for **and looking for cool projects to get involved in real live DevOps.**
+- 🌱 I’m currently learning **and looking for cool projects to get involved in real live DevOps.**
 
 - ⚡ Fun fact **I enjoy a good challenge**
 
