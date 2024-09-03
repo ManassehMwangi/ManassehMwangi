@@ -8,6 +8,15 @@ to help them realize Digital Transformation and/or adopt a successful Cloud Migr
 
 ## Work Experience
 
+### Public Service Commission - Kenya
+
+**Web Developer Intern Kenyatta University | April 8th 2024 – Present** <br>
+- Utilizing Content Management Systems, including  Joomla, WordPress and Drupal.
+- Developing websites using PHP, MySQL database, JavaScript and HTML.
+- Creating and designing articles, menus and site modules to enhance user experience.
+- Collaborating with the stakeholders to understand their requirements and objectives. 
+- Implementing SSL certificates to enhance website security.
+
 ### AWS Community Builder Program
 
 **Community Builder | August 15th 2023 – Present** <br>
