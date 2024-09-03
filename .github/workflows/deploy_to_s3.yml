@@ -48,7 +48,7 @@ jobs:
         run: hugo
 
       - name: Sync to S3
-        uses: jakejarvis/s3-sync-action@v1
+        uses: jakejarvis/s3-sync-action@main
         with:
           args: --acl public-read --delete --exact-timestamps
         env:
