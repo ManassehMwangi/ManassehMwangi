@@ -4,10 +4,6 @@ on:
   push:
     branches: ["main"]
 
-permissions:
-  contents: read
-  id-token: write
-
 env:
   HUGO_ENV: production
   HUGO_VERSION: "0.115.1"
@@ -36,9 +32,9 @@ jobs:
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --delete --exact-timestamps
+          source-dir: './public'
+          destination-bucket: ${{ secrets.AWS_S3_BUCKET }}
         env:
-          SOURCE_DIR: './public'
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ env.AWS_REGION }}
