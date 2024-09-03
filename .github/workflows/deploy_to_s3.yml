@@ -30,12 +30,13 @@ jobs:
 
       - name: Sync to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --acl public-read --delete --exact-timestamps
-          entryPoint: aws s3 sync
-          sourceDir: ./public
-          destBucket: ${{ secrets.AWS_S3_BUCKET }}
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ env.AWS_REGION }}
+        with:
+          entryPoint: aws s3 sync
+          args: --acl public-read --delete --exact-timestamps
+          src: ./public
+          dst: ${{ secrets.AWS_S3_BUCKET }}
+          exclude: .git,.gitignore,hugo.log
