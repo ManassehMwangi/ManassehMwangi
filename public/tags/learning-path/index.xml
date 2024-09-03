@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Learning Path on </title>
+    <link>https://manassehmwangi.devatlas.org/tags/learning-path/</link>
+    <description>Recent content in Learning Path on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://manassehmwangi.devatlas.org/tags/learning-path/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Cloud Quest: Solutions Architect adventure</title>
+      <link>https://manassehmwangi.devatlas.org/blog/post3/questsolutions/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://manassehmwangi.devatlas.org/blog/post3/questsolutions/</guid>
+      <description>Steps to acing the AWS — Certified Cloud Practitioner (CCP) Exam — CLF-C01
+Introduction I recently cleared the AWS- Cloud Quest Cloud Practitioner in June 2023 and thought of sharing my the experience and the path I took to complete this. AWS Cloud Quest is an open-world, role-playing game that teaches you how to create AWS solutions using cloud concepts and exercises based on real life. It helps you learn the intricacies of modern cloud technologies and have fun at the same time.</description>
+    </item>
+    
+    <item>
+      <title>Steps to acing the AWS — Certified Cloud Practitioner</title>
+      <link>https://manassehmwangi.devatlas.org/blog/post1/ccp-exam/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://manassehmwangi.devatlas.org/blog/post1/ccp-exam/</guid>
+      <description>Steps to acing the AWS — Certified Cloud Practitioner (CCP) Exam — CLF-C01
+Introduction I cleared the AWS- Cloud Practitioner Certification Exam back in December 2021 and thought of sharing my the experience and the path I took to complete this. AWS — Certified Cloud Practitioner (CCP) — CLF-C01 is a foundational level AWS certification. I believe that a certificate is only one validation method of existing skills. While preparing for this, I understood how AWS platform works and the basic building blocks behind it.</description>
+    </item>
+    
+    <item>
+      <title>AWS Cloud Quest: Cloud Practitioner adventure</title>
+      <link>https://manassehmwangi.devatlas.org/blog/post2/quest/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://manassehmwangi.devatlas.org/blog/post2/quest/</guid>
+      <description>Steps to acing the AWS — Certified Cloud Practitioner (CCP) Exam — CLF-C01
+Introduction I recently cleared the AWS- Cloud Quest Cloud Practitioner in June 2023 and thought of sharing my the experience and the path I took to complete this. AWS Cloud Quest is an open-world, role-playing game that teaches you how to create AWS solutions using cloud concepts and exercises based on real life. It helps you learn the intricacies of modern cloud technologies and have fun at the same time.</description>
+    </item>
+    
+  </channel>
+</rss>
