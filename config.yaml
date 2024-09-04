@@ -5,8 +5,8 @@ theme: PaperMod
 tags: ["AWS", "Cloud", "Certification", "DevOps"]
 
 params:
-  s3BucketURL: "{{ env "S3_BUCKET_URL" }}"
-  awsRegion: "{{ env "AWS_REGION" }}"
+  s3BucketURL: "S3_BUCKET_URL_PLACEHOLDER"
+  awsRegion: "AWS_REGION_PLACEHOLDER"
 
 menu:
   main:
