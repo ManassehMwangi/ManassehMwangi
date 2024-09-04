@@ -27,8 +27,11 @@ jobs:
           BUCKET_NAME=$(echo ${{ secrets.AWS_S3_BUCKET }} | cut -d '/' -f 1)
           REGION=$(echo ${{ secrets.AWS_S3_BUCKET }} | cut -d '/' -f 2)
           
+          # Set AWS CLI profile
+          aws configure set profile default aws_access_key_id=$AWS_ACCESS_KEY_ID aws_secret_access_key=$AWS_SECRET_ACCESS_KEY
+          
           # Run Hugo deploy command
-          $HOME/hugo -v deploy --maxDeletes -1 --baseURL=https://${BUCKET_NAME}.s3.amazonaws.com --awsProfile=default --awsRegion=$REGION
+          $HOME/hugo -v deploy --maxDeletes -1 --force --target=aws-s3-bucket
           
           # Sync only new files
           aws s3 sync ./public s3://${BUCKET_NAME} --delete --exact-timestamps
