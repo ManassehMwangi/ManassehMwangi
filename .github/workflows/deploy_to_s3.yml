@@ -2,58 +2,41 @@ name: Deploy Hugo site to S3
 
 on:
   push:
-    branches: ["main"]  
-
-permissions:
-  contents: read
-  id-token: write
-
-env:
-  HUGO_ENV: production
-  HUGO_VERSION: "0.115.1"
-  GO_VERSION: "1.20.5"
-  NODE_VERSION: "18.15.0"
-  AWS_REGION: ${{ secrets.AWS_REGION }}
-  AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_VERSION }}
+        uses: actions/checkout@v2
 
       - name: Install Hugo
         run: |
-          curl -LO "https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz"
-          tar -xvf hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
-          sudo mv hugo /usr/local/bin/
-          rm hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
-          hugo version
-
-      - name: Install Go
-        run: |
-          curl -LO "https://dl.google.com/go/go${{ env.GO_VERSION }}.linux-amd64.tar.gz"
-          sudo tar -C /usr/local -xzf go${{ env.GO_VERSION }}.linux-amd64.tar.gz
-          echo "export PATH=$PATH:/usr/local/go/bin" >> $GITHUB_ENV
-          rm go${{ env.GO_VERSION }}.linux-amd64.tar.gz
-          go version
-
-      - name: Build site
-        run: hugo
-
-      - name: Sync to S3
-        uses: jakejarvis/s3-sync-action@v1
-        with:
-          args: --acl public-read --delete --exact-timestamps
+          HUGO_DOWNLOAD=hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+          wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_DOWNLOAD}
+          tar xvzf ${HUGO_DOWNLOAD} hugo
+          mv hugo $HOME/hugo
         env:
-          SOURCE_DIR: './public'
-          BUCKET_NAME: ${{ secrets.AWS_S3_BUCKET }}
+          HUGO_VERSION: 0.113.0
+
+      - name: Build Hugo site
+        run: $HOME/hugo -v
+
+      - name: Deploy to S3
+        run: |
+          # Extract bucket name from the S3_BUCKET_NAME secret
+          BUCKET_NAME=${{ secrets.S3_BUCKET_NAME }}
+          REGION="us-east-1"  # Specify the region if not part of the bucket name
+
+          # Set AWS CLI credentials
+          aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws configure set region $REGION
+
+          # Sync files to S3
+          aws s3 sync ./public s3://${BUCKET_NAME} --delete --exact-timestamps
+        env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ env.AWS_REGION }}
