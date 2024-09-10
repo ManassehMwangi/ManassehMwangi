@@ -76,6 +76,12 @@ Grade: Second Class Upper Division
 
 ## Certifications
 
+### GitHub Foundations 
+August 12, 2024 <br>
+[Credential ID VERIFIED](https://www.credly.com/badges/51a4f4b5-618e-4688-85b4-e31430bcd123)
+
+![](/experience/index/githubfoundations.png)
+
 ### AWS Cloud Quest: Solutions Architect 
 **Amazon Web Services Training and Certification** <br>
 July 04, 2023 <br>
