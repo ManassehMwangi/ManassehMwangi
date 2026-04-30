@@ -3,50 +3,59 @@ date: 2023-06-22T01:36:41.827Z
 
 ---
 # **My Resume**
-A passionate Cloud advocate with 2 years of experience working in Computer Networks and Cloud Computing. I am specializing in providing insightful and honest strategic recommendations based on the client's business goals 
-to help them realize Digital Transformation and/or adopt a successful Cloud Migration Strategy.  
+Cloud Engineer experienced in building and operating scalable cloud infrastructure in Agile environments. 
+Skilled in AWS architecture, Kubernetes, Terraform, CI/CD automation, monitoring, and incident 
+response, collaborating with cross-functional teams to deliver secure and reliable systems.   
 
 ## Work Experience
 
-### Public Service Commission - Kenya
+### Centre for Education and Sustainable Development in Africa
 
-**Web Developer Intern Kenyatta University | April 8th 2024 – Present** <br>
-- Utilizing Content Management Systems, including  Joomla, WordPress and Drupal.
-- Developing websites using PHP, MySQL database, JavaScript and HTML.
-- Creating and designing articles, menus and site modules to enhance user experience.
-- Collaborating with the stakeholders to understand their requirements and objectives. 
-- Implementing SSL certificates to enhance website security.
+**Site Reliability Engineer  | January 15th 2025 – Present** <br>
+- Ensure high availability and optimal performance of the Learning Management System (LMS) through 
+proactive monitoring, incident resolution, and cross-team collaboration.
+- Gained hands-on experience in Agile workflows and SDLC processes.
+- Performed SQL queries to verify data accuracy, reporting integrity, and student engagement metrics.
+- Led the organization wide migration to Google Workspace (GSuite) to enhance communication, reduce 
+operational friction and improve cross functional collaboration. 
 
 ### AWS Community Builder Program
 
 **Community Builder | August 15th 2023 – Present** <br>
-- Collaborate with fellow builders to solve technical challenges.
-- Trying out new AWS Cloud resources before they are launched officially.
-- Share proof of concepts and knowledge on AWS services offered through the use of Devto, Medium or Youtube.
+- Actively contribute AWS-related content to platforms like Dev.to, Medium, and YouTube, focusing on 
+practical insights and demonstrations of AWS services.  
+-  Collaborate with a network of AWS Community Builders to tackle complex technical issues and test new 
+AWS Cloud resources.
+- Participate in AWS Kenya User-group events, contributing as a volunteer and session moderator. 
 
-### Independent Electoral and Boundaries Commission 
+### Public Service Commission - Kenya
 
-**ICT Clerk** <br>
-_Aug 2022_
+**Web Developer Intern Kenyatta University | April 8th 2024 – Present** <br>
+- Skilled in working with popular CMS platforms, including Joomla, WordPress, and Drupal, to develop 
+user-friendly and functional websites.
+- Proficient in PHP, MySQL, JavaScript, and HTML for end-to-end web development and backend 
+integration, enhancing website functionality and security
+- Performed exploratory testing to uncover usability issues and ensure a seamless user experience. 
 
-- Handling the KIEMS kit and confirmation of the voters’ Identification Document.
+### Freelance (Fiverr, Upwork) 
 
+**Site Reliability Engineer | December 15th 2022 – Present** <br>
+- Architected, deployed, and managed scalable solutions on AWS, Azure, and GCP for clients. 
+- Leveraged Terraform and AWS CloudFormation for automated infrastructure deployment. 
+- Set up and managed CI/CD pipelines, implementing automated deployment processes and integrating 
+monitoring tools (Prometheus, Grafana). 
+- Collaborate with developers, product managers, and support teams to verify bug fixes and improve 
+overall software quality.  
 
 ### MENTOR SACCO
-**Information Technology Technical Support** <br>
+**IT & Quality Support Intern** <br>
 _May 2022 to July 2022_
 
-- Computer and printer maintenance in all branches.
-- Installation windows 10 software to new computers. 
-- Installation of ethernet cables and configuring local IP addresses.
-- Storage and retrieval of documents through the use of Parallel client’s system in the registry department.
+- Executed manual functional testing for Mentor’s mobile applications. 
+- Supported system verification, defect logging, and escalation to technical teams. 
+- Validated fixes and updates prior to customer rollout. 
+- Gained exposure to banking systems, SLAs, and QA standards.
 
-### Kenya National Bureau of Statistics
-**Enumerator** <br>
-_Aug 2019_
-
-- Going round the Enumeration Block and identifying its boundaries.
-- Obtaining accurate answers using CAPI(Computer Assisted Personal Interview).
 
  ## Skills
 
@@ -76,6 +85,20 @@ Grade: Second Class Upper Division
 
 ## Certifications
 
+### Kubernetes and Cloud Native Associate(KCNA)
+**Linux Foundation** <br>
+September 27, 2025 <br>
+[Credential ID: 65c3780590d44b03988150edc6fc19eb](https://aws.amazon.com/verification)
+
+![](/experience/index/kcna.png)
+
+### AWS Certified Solutions Architect - Associate
+**Amazon Web Services Training and Certification** <br>
+December 15, 2021 <br>
+[Credential ID: 65c3780590d44b03988150edc6fc19eb](https://aws.amazon.com/verification)
+
+![](/experience/index/solutionsarchitectassociate.png)
+
 ### GitHub Foundations 
 August 12, 2024 <br>
 [Credential ID VERIFIED](https://www.credly.com/badges/51a4f4b5-618e-4688-85b4-e31430bcd123)
@@ -97,10 +120,10 @@ June 18, 2023 <br>
 
 ![](/experience/index/cloudquestpractitioner.png)
 
-### AWS CloudD Practitioner
+### AWS Certified Cloud Practitioner
 **Amazon Web Services Training and Certification** <br>
 December 15, 2021 <br>
-[Credential ID YH0P5SQBHMEEQ5SR](https://aws.amazon.com/verification)
+[Credential ID: YH0P5SQBHMEEQ5SR](https://aws.amazon.com/verification)
 
 ![](/experience/index/cloudpractitioner.png)
 
@@ -131,3 +154,8 @@ March 16, 2023 <br>
 2. ### Cisco®CCNA Introduction to Networks & Routing and Switching Essentials 
 - I was awarded two letters of merit signed by Cisco CEO Chuck Robbins which is awarded to Students and Instructors who score 75% or above on their course final exam to acknowledge the excellence they have achieved.
 
+3. ### Independent Electoral and Boundaries Commission 
+- ICT Clerk tasked with Handling the KIEMS kit and confirmation of the voters’ Identification Document in August 2022.
+
+4. ### Kenya National Bureau of Statistics
+- Enumerator tasked with Going round the Enumeration Block and identifying its boundaries and btaining accurate answers using CAPI(Computer Assisted Personal Interview) in 2019.
