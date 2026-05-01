@@ -1,7 +1,7 @@
 ---
 title: "End-to-End Vulnerability Management with Amazon Inspector"
 author: "Manasseh Mwangi"
-date: 2025-07-20
+date: 2026-01-01
 
 subtitle: "Amazon Inspector Inspector scans container images and source code to detect and remediate security risks in modern cloud workloads"
 
@@ -26,6 +26,8 @@ It supports multiple resource types, including:
 - **EC2 Virtual Servers** – deep inspection of Linux and Windows OS packages  
 - **Elastic Container Registry (ECR)** – scans container images for CVEs and malware  
 - **Code Repositories** – integrates with GitHub and GitLab to detect insecure code  
+
+![Architecture](/blog/post5/inspectordesign.png)
 
 ---
 
