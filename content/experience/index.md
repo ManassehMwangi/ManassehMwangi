@@ -28,9 +28,9 @@ practical insights and demonstrations of AWS services.
 AWS Cloud resources.
 - Participate in AWS Kenya User-group events, contributing as a volunteer and session moderator. 
 
-### Public Service Commission - Kenya
+### Public Service Commission (Kenyatta University) 
 
-**Web Developer Intern Kenyatta University | April 8th 2024 – Present** <br>
+**Web Developer | April 8th 2024 – Present** <br>
 - Skilled in working with popular CMS platforms, including Joomla, WordPress, and Drupal, to develop 
 user-friendly and functional websites.
 - Proficient in PHP, MySQL, JavaScript, and HTML for end-to-end web development and backend 
@@ -79,7 +79,7 @@ _May 2022 to July 2022_
 
 ### KCA University
 _Nairobi, Kenya_ <br>
-**Bsc. Informatiion Technology** <br>
+**Bsc. Information Technology** <br>
 _2018-2022_ <br>
 Grade: Second Class Upper Division
 

@@ -1,7 +1,7 @@
 ---
 title: "Automating Data Security in S3 with Amazon Macie"
 author: "Manasseh Mwangi"
-date: 2026-01-01
+date: 2026-01-08
 
 subtitle: "Implementing sensitive data discovery, custom detection rules, and event-driven notifications in AWS"
 

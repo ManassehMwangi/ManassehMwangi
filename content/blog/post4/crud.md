@@ -18,11 +18,11 @@ tags:
 
 ---
 ## Introduction
-API stands for Application Programming Interface. API is a set of definitions and protocols for building and intergrating application software. This interface allows different software programs to interact with each other by calling functions, passing data and accessing different capabilities.
+API stands for Application Programming Interface. API is a set of definitions and protocols for building and integrating application software. This interface allows different software programs to interact with each other by calling functions, passing data and accessing different capabilities.
 
 ## Types of APIs
  The main types are:
-- REST APIs - REST(Representational State Transfer) This is a common architecture style. They typically provide CRUD(create, Read,Update, Delete) operations and use HTTP requests such as GET, POST, PUT, DELETE. Data is uasually returned in JSON or XML format. 
+- REST APIs - REST(Representational State Transfer) This is a common architecture style. They typically provide CRUD(create, Read,Update, Delete) operations and use HTTP requests such as GET, POST, PUT, DELETE. Data is usually returned in JSON or XML format. 
 - SOAP APIs - SOAP (Simple Object Access Protocol) is an older style of web service API that uses XML for messaging. SOAP APIs are more rigid than REST and require more bandwidth.
 - GraphQL APIs - GraphQL is a newer API standard that allows clients to specify exactly what data they need in a query. It can be more efficient than REST for fetching specific fields.
 - Webhook APIs - Webhooks allow apps to provide other applications with real-time information via callbacks. The receiving app registers a webhook which triggers an event on a certain action.
@@ -48,7 +48,7 @@ _Create a DyanmoDB table_
 Next, we create a Lambda function named "http-crud-tutorial-function" that interacts with DynamoDB to perform CRUD operations. The Lambda function is written in Node.js 14.x and uses the AWS SDK to communicate with DynamoDB. It handles HTTP requests from API Gateway and executes corresponding operations on the DynamoDB table.
 ![image](/blog/post4/Capture3.PNG)
 ![image](/blog/post4/Capture4.PNG)
-_Create a Lambda funtion and insert the code in the index.js_
+_Create a Lambda function and insert the code in the index.js_
 
 ```
 const AWS = require("aws-sdk");
@@ -134,7 +134,7 @@ _Create a HTTP API_
 _Integration type, choose Lambda function, enter http-crud-tutorial-function_
 
 ## Step 4: Testing the API
-With our API set up, we use tools like CURL to test our endpoints. Fisrt we invoke the url, one can locate it from stages in your api details.
+With our API set up, we use tools like CURL to test our endpoints. First we invoke the url, one can locate it from stages in your api details.
 `Replace URL INVOKE_URL="https://**abcdef123**.execute-api.eu-west-1.amazonaws.com"
 `
 ```
@@ -148,9 +148,19 @@ curl -X "PUT" -H "Content-Type: application/json" -d "{
 ![image](/blog/post4/Capture9.PNG)
 _Add a many items as possible_
 ![image](/blog/post4/Capture12.PNG)
-_Test CRUD FUNTIONS_
+_Test CRUD Functions_
 ![image](/blog/post4/Capture10.PNG)
 ![image](/blog/post4/Capture11.PNG)
 
+## What I Learned
+
+Going through this lab, a few things stood out that I didn't fully appreciate before.
+
+The first was how little boilerplate you actually need to wire up a fully functional API on AWS. The Lambda function handles all four CRUD operations in under 60 lines of code, and API Gateway takes care of routing without you managing a single server. Coming from a background where setting up a REST API meant configuring a web server, installing dependencies, and managing processes, this felt almost too easy.
+
+The second thing that surprised me was how tightly the `routeKey` pattern in Lambda ties to the API Gateway route definition. If the route in API Gateway is `GET /items/{id}` and your switch case doesn't match that string exactly, the request falls through to the default error. It's a small thing, but it's the kind of detail that can cost you 30 minutes of debugging if you're not paying attention.
+
+I also noticed that the lab uses Node.js 14.x, which is now end-of-life. In a real project I'd upgrade to Node.js 20.x and swap the AWS SDK v2 calls for the v3 modular client — it's more tree-shakeable and better suited for Lambda's cold start constraints.
+
 ## Step 5: Conclusion
-In conclusion, building a simple CRUD API with AWS services empowers developers to create scalable and efficient solutions for managing data. By leveraging DynamoDB for storage, Lambda for serverless compute, API Gateway for endpoint management, and Cloud9 IDE for development and testing, we've demonstrated a streamlined approach to API development on AWS.
+Building a simple CRUD API with AWS services empowers developers to create scalable and efficient solutions for managing data. By leveraging DynamoDB for storage, Lambda for serverless compute, API Gateway for endpoint management, and Cloud9 IDE for development and testing, this lab demonstrates a streamlined approach to serverless API development on AWS.
