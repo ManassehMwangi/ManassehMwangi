@@ -158,4 +158,4 @@ March 16, 2023 <br>
 - ICT Clerk tasked with Handling the KIEMS kit and confirmation of the voters’ Identification Document in August 2022.
 
 4. ### Kenya National Bureau of Statistics
-- Enumerator tasked with Going round the Enumeration Block and identifying its boundaries and btaining accurate answers using CAPI(Computer Assisted Personal Interview) in 2019.
+- Enumerator tasked with Going round the Enumeration Block and identifying its boundaries and obtaining accurate answers using CAPI(Computer Assisted Personal Interview) in 2019.

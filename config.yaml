@@ -1,6 +1,7 @@
 baseURL: "https://manassehmwangi.devatlas.org/"
 languageCode: en-us
 title: 
+copyright: "© 2026 [devatlas](https://manassehmwangi.devatlas.org)"
 theme: PaperMod
 tags: ["AWS", "Cloud", "Certification", "DevOps"]
 
@@ -43,8 +44,9 @@ params:
   ShowCodeCopyButtons: true
   hideMeta: false
 
-  # for enchanced SEO
+  # for enhanced SEO
   env: production
+  description: "Manasseh Mwangi — Cloud & DevOps Engineer specializing in AWS, Kubernetes, Terraform, and CI/CD. AWS Certified Solutions Architect Associate and KCNA certified."
 
   # Home Page
   profileMode:

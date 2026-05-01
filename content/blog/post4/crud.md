@@ -3,7 +3,7 @@ title: "Building a Simple CRUD API"
 author: "Manasseh Mwangi"
 date: 2024-03-20
 
-subtitle: "CRUD API using DyanmoDB, Lambda, cloud9 and Amazon API Gateway"
+subtitle: "CRUD API using DynamoDB, Lambda, Cloud9 and Amazon API Gateway"
 
 
 cover:
@@ -14,7 +14,7 @@ tags:
 - Amazon API Gateway
 - CRUD
 - Lambda
-- DyanmoDB
+- DynamoDB
 
 ---
 ## Introduction
@@ -33,7 +33,7 @@ API stands for Application Programming Interface. API is a set of definitions an
 ## Lab
 This lab is based on [**Build your first CRUD API in 45 minutes or less!**](https://catalog.us-east-1.prod.workshops.aws/workshops/2c8321cb-812c-45a9-927d-206eea3a500f/en-US) from AWS Workshops.
 
-_Prerequisites _
+_Prerequisites_
 1. DynamoDB for Data Storage: It integrates seamlessly with other AWS services, making it a reliable choice for storing and retrieving data in serverless applications.
 2. Lambda for Serverless Compute: It can be triggered by various events, such as HTTP requests from API Gateway, making it ideal for building serverless APIs.
 3. API Gateway for Endpoint Management: It integrates with Lambda functions, enabling you to define API endpoints that trigger serverless functions to process incoming requests.
@@ -42,7 +42,7 @@ _Prerequisites _
 ## Step 1: Setting up DynamoDB
 Setting up a DynamoDB table named "http-crud-tutorial-items" with a primary key "id." DynamoDB is a fully managed NoSQL database service provided by AWS, offering scalability, performance, and reliability for handling structured data. 
 ![image](/blog/post4/Capture1.PNG)
-_Create a DyanmoDB table_
+_Create a DynamoDB table_
 
 ## Step 2: Creating a Lambda Function
 Next, we create a Lambda function named "http-crud-tutorial-function" that interacts with DynamoDB to perform CRUD operations. The Lambda function is written in Node.js 14.x and uses the AWS SDK to communicate with DynamoDB. It handles HTTP requests from API Gateway and executes corresponding operations on the DynamoDB table.
@@ -146,7 +146,7 @@ curl -X "PUT" -H "Content-Type: application/json" -d "{
 
 ```
 ![image](/blog/post4/Capture9.PNG)
-_Add a many items as possible_
+_Add as many items as possible_
 ![image](/blog/post4/Capture12.PNG)
 _Test CRUD Functions_
 ![image](/blog/post4/Capture10.PNG)

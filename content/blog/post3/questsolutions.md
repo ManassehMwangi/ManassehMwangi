@@ -23,11 +23,11 @@ tags:
 ---
 ![image](/blog/post3/cloudquestachitect.png)
 
-_Steps to acing the AWS — Certified Cloud Practitioner (CCP) Exam — CLF-C01_
+_AWS Cloud Quest: Solutions Architect — Building advanced cloud architectures_
 
 ## Introduction
 
-I recently cleared the AWS- Cloud Quest Cloud Practitioner in June 2023 and thought of sharing my the experience and the path I took to complete this. AWS Cloud Quest is an open-world, role-playing game that teaches you how to create AWS solutions using cloud concepts and exercises based on real life. It helps you learn the intricacies of modern cloud technologies and have fun at the same time. Cloud Quest features 12 real-life scenario assignments which prepare and train you to become an AWS Cloud Practitioner at absolutely no cost. This free game targets audiences that are new to Cloud Computing and people who want to learn the basics of Amazon Web Services (AWS).
+I recently completed the AWS Cloud Quest: Solutions Architect in July 2023 and wanted to share the experience and path I took to finish it. AWS Cloud Quest is an open-world, role-playing game that teaches you how to create AWS solutions using cloud concepts and real-life exercises. Unlike the Cloud Practitioner edition, the Solutions Architect role focuses on designing resilient, high-performing, and cost-optimized architectures. It features 26 scenario-based assignments that go well beyond the basics, covering topics like container services, serverless, CDN, and infrastructure automation.
 
 ## AWS Cloud Quest Essentials Topics 
 
@@ -75,7 +75,7 @@ When you come to the Solution Center to build the solution and complete the ques
 In the learn section you can interact with a diagram of the solution you build and can watch videos of the concepts and services that you will use. I must admit, the diagram was really helpful and gets new to cloud learners used to the concept of solution or architecture diagrams as well as explain what the services are and the way they function.
 ![image](/blog/post2/learn1.png)
 
-The less great part of this step was the factt that at times the videos took long to load, therefore give it time  for the videos to load then watch them. They help one understand the services in the lab and give insights. I highly recommend you watch them even though there might be a glitch or a lag.
+The less great part of this step was the fact that at times the videos took long to load, therefore give it time for the videos to load then watch them. They help one understand the services in the lab and give insights. I highly recommend you watch them even though there might be a glitch or a lag.
 ![image](/blog/post2/learn2.png)
 
 ## 2: Plan
@@ -89,7 +89,7 @@ This is the interactive hands-on area. Here, you will get to implement an initia
 ![image](/blog/post2/practice.png)
 Once you click open AWS console button a new tab will open and you will be directed to the AWS Management Consol homepage.
 ![image](/blog/post2/lab1.png)
-When you are through with the hands on section, this image will be dipslayed showing you've finished the section. Click on the DIY button to go to the next step. 
+When you are through with the hands on section, this image will be displayed showing you've finished the section. Click on the DIY button to go to the next step. 
 ![image](/blog/post2/prac2.jpg)
 
 ## 4: DIY

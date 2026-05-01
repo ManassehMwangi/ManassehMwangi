@@ -1,8 +1,7 @@
 {{- $scratch := newScratch }}
 
-<!-- Use dateString instead of date -->
-{{- if .Param "DateString"}}
-{{ .Param "DateString" }}
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (.Date.Format "January 2, 2006")) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
